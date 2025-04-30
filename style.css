@@ -44,23 +44,10 @@ nav a.two {
   color: #7B00CD;
 }
 
-nav a.three {
-  position: absolute;
-  top: 31px;
-  left: 639px;
-  width: 114px;
-  height: 23px;
-  z-index: 2;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  color: #7B00CD;
-}
-
 nav a.onetwo {
   position: absolute;
   top: 31px;
-  left: 86px;
+  left: 154px;
   width: 114px;
   height: 23px;
   z-index: 2;
@@ -73,59 +60,7 @@ nav a.onetwo {
 nav a.twotwo {
   position: absolute;
   top: 31px;
-  left: 257px;
-  width: 114px;
-  height: 23px;
-  z-index: 2;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  color: black;
-}
-
-nav a.threetwo {
-  position: absolute;
-  top: 31px;
-  left: 433px;
-  width: 114px;
-  height: 23px;
-  z-index: 2;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  color: #7B00CD;
-}
-
-nav a.onethree {
-  position: absolute;
-  top: 31px;
-  left: 86px;
-  width: 114px;
-  height: 23px;
-  z-index: 2;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  color: #7B00CD;
-}
-
-nav a.twothree {
-  position: absolute;
-  top: 31px;
-  left: 257px;
-  width: 114px;
-  height: 23px;
-  z-index: 2;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  color: #7B00CD;
-}
-
-nav a.threethree {
-  position: absolute;
-  top: 31px;
-  left: 433px;
+  left: 394px;
   width: 114px;
   height: 23px;
   z-index: 2;

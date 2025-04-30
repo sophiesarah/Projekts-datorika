@@ -1,24 +1,16 @@
-document.getElementById("id4").addEventListener("click", function () {
-  const img = this;
-  img.src = (img.src.includes("bilde1.png")) ? "bilde5.png" : "bilde1.png";
-});
 
-document.getElementById("id5").addEventListener("click", function () {
-  const img = this;
-  img.src = (img.src.includes("bilde2.png")) ? "bilde6.png" : "bilde2.png";
-});
+function addClickListener(id, img1, img2) {
+  const element = document.getElementById(id);
+  if (element) {
+    element.addEventListener("click", function () {
+      const img = this;
+      img.src = (img.src.includes(img1)) ? img2 : img1;
+    });
+  }
+}
 
-document.getElementById("id6").addEventListener("click", function () {
-  const img = this;
-  img.src = (img.src.includes("bilde3.png")) ? "bilde7.png" : "bilde3.png";
-});
-
-document.getElementById("id7").addEventListener("click", function () {
-  const img = this;
-  img.src = (img.src.includes("bilde9.png")) ? "bilde8.png" : "bilde9.png";
-});
-
-document.getElementById("id8").addEventListener("click", function () {
-  const img = this;
-  img.src = (img.src.includes("bilde10.png")) ? "bilde4.png" : "bilde10.png";
-});
+addClickListener("id4", "bilde1.png", "bilde5.png");
+addClickListener("id5", "bilde2.png", "bilde6.png");
+addClickListener("id6", "bilde3.png", "bilde7.png");
+addClickListener("id7", "bilde9.png", "bilde8.png");
+addClickListener("id8", "bilde10.png", "bilde4.png");

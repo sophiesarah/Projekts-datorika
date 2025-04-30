@@ -135,14 +135,14 @@ nav a.threethree {
   color: black;
 }
 
-.img {
+#id1 {
   position: absolute;
   top: 241px;
   left: 428px;
   width: 434px;
 }
 
-#id1 {
+#id2 {
   position: absolute;
   top: 280px;
   left: 969px;
@@ -154,7 +154,7 @@ nav a.threethree {
   align-items: center;
 }
 
-#id2 {
+#id3 {
   position: absolute;
   top: 424px;
   left: 1056px;
@@ -242,3 +242,71 @@ footer {
   align-items: center;
 }
 
+#id4 {
+  position: absolute;
+  top: 241px;
+  left: 188px;
+  width: 435px;
+  height: 289px;
+  object-fit: cover;
+  object-position: bottom;
+  border-radius: 100px;
+}
+
+#id5 {
+  position: absolute;
+  top: 684px;
+  left: 188px;
+  width: 435px;
+  height: 289px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+#id6 {
+  position: absolute;
+  top: 1128px;
+  left: 188px;
+  width: 435px;
+  height: 289px;
+  object-fit: cover;
+  object-position: bottom;
+  border-radius: 100px;
+}
+
+#id7 {
+  position: absolute;
+  top: 1572px;
+  left: 188px;
+  width: 435px;
+  height: 289px;
+  object-fit: cover;
+  object-position: bottom;
+  border-radius: 100px;
+}
+
+#id8 {
+  position: absolute;
+  top: 2016px;
+  left: 188px;
+  width: 435px;
+  height: 289px;
+  object-fit: cover;
+  object-position: bottom;
+  border-radius: 100px;
+}
+
+#id9 {
+  position: absolute;
+  top: 1207px;
+  left: 728px;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+iframe {
+  position: absolute;
+  top: 1780px;
+  left: 728px;
+}
